@@ -340,5 +340,8 @@
   },
   "replaceLogoLabel": {
     "message": "Replace X branding changes"
+  },
+  "useThemeForBirdLabel": {
+    "message": "Use theme color for the Twitter Bird"
   }
 }

@@ -94,6 +94,7 @@ const config = {
   tweakQuoteTweetsPage: true,
   twitterBlueChecks: 'replace',
   uninvertFollowButtons: true,
+  useThemeForBird: false,
   // Experiments
   // none currently
   // Desktop only

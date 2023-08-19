@@ -30,6 +30,7 @@ body:not(.hidingSidebarContent) .hidingSidebarContent,
 body:not(.hidingTwitterBlueReplies) .hidingTwitterBlueReplies,
 body:not(.iOS.safari) .toggle,
 body:not(.mutedQuotes) .mutedQuotes,
+body:not(.replacingXBranding) .replacingXBranding,
 body:not(.uninvertedFollowButtons) .uninvertedFollowButtons {
   display: none;
 }

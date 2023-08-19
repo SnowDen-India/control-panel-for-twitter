@@ -340,5 +340,8 @@
   },
   "replaceLogoLabel": {
     "message": "Remplacer les changements de marque X"
+  },
+  "useThemeForBirdLabel": {
+    "message": ""
   }
 }

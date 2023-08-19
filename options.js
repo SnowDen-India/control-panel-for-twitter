@@ -195,6 +195,7 @@ const defaultConfig = {
   tweakQuoteTweetsPage: true,
   twitterBlueChecks: 'replace',
   uninvertFollowButtons: true,
+  useThemeForBird: false,
   // Experiments
   // none currently
   // Desktop only
@@ -396,6 +397,7 @@ function updateDisplay() {
   $body.classList.toggle('hidingSidebarContent', optionsConfig.hideSidebarContent)
   $body.classList.toggle('hidingTwitterBlueReplies', optionsConfig.hideTwitterBlueReplies)
   $body.classList.toggle('mutedQuotes', shouldDisplayMutedQuotes())
+  $body.classList.toggle('replacingXBranding', optionsConfig.replaceLogo)
   $body.classList.toggle('uninvertedFollowButtons', optionsConfig.uninvertFollowButtons)
   updateMutedQuotesDisplay()
 }

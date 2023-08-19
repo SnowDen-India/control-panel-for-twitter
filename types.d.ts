@@ -58,6 +58,7 @@ export type Config = {
   tweakQuoteTweetsPage: boolean
   twitterBlueChecks: 'ignore' | 'replace' | 'hide'
   uninvertFollowButtons: boolean
+  useThemeForBird: boolean
   // Experiments
   // none currently
   // Desktop only
